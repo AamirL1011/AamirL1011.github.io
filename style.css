@@ -12,10 +12,78 @@ body {
 	margin-right: 10px;
 }
 
-.navbar {
-	
+.navbar-default {
+	background-color: #4d5459;
+	border-color: #586066;
+	color: white;
+}
+
+.dropdown {
+	color: white;
+	background-color: #4d5459;
 }
 
 .construction {
 	color: lightgray;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+	color: lightgray;
+    background-color: #4d5459;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #4d5459;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus {
+    color: white;
+    background-color: #677178;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: lightgray;
+}
+
+.navbar-default .navbar-nav>li {
+    color: lightgray;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+	color: lightgray;
+    background-color: #586066;
+}
+
+.dropdown-menu {
+	background-color: #838e96;
+	color: lightgray;
+}
+
+
+.dropdown-menu ul{
+	background-color: #677178;
+	color: lightgray;
+}
+
+.dropdown-menu .divider {
+	background-color: black;
+}
+
+
+.dropdown-menu>li>a {
+    color: lightgray;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #677178;
+    color: white;
+}
+
+.container .row hr {
+	border-color: white;
 }
