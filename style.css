@@ -1,6 +1,7 @@
 body {
-	background-color: white;
-	background: white;
+	background-image: url(https://images.unsplash.com/photo-1527769929977-c341ee9f2033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+	background-size: cover;
+	background-position: center;
 }
 #center{
 	text-align: center;
