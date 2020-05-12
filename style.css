@@ -8,6 +8,11 @@ body {
 	padding-top: 20%;
 }
 
+#centerThumb{
+	text-align: center;
+	padding-top: 2%;
+}
+
 .navbar-header img {
 	margin-right: 10px;
 }
@@ -34,12 +39,12 @@ body {
 
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a:hover {
     color: white;
-    background-color: #4d5459;
+    background-color: #586066;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus {
     color: white;
-    background-color: #677178;
+    background-color: #586066;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -86,4 +91,13 @@ body {
 
 .container .row hr {
 	border-color: white;
+}
+
+
+.navbar-default .navbar-brand {
+    color: lightgray;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #777;
 }
