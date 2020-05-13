@@ -3,9 +3,20 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+
+.about {
+	margin-top: -45px;
+	margin-left: -45px;
+}
+
 #center{
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 5%;
+}
+
+.jumbotron {
+	opacity: 75%;
+	background-color: gray;
 }
 
 #centerThumb{
@@ -101,3 +112,11 @@ body {
 .navbar-default .navbar-brand:hover {
     color: #777;
 }
+
+.btn-default {
+    color: lightgray;
+    background-color: #838e96;
+    border-color: #677178;
+}
+
+
