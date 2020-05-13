@@ -15,7 +15,7 @@ body {
 }
 
 .jumbotron {
-	opacity: 75%;
+	opacity: 85%;
 	background-color: gray;
 }
 
@@ -75,6 +75,22 @@ body {
     background-color: #586066;
 }
 
+.projBlock {
+	background-color: gray;
+	opacity: 90%;
+	border-radius: 4px;
+}
+.projContent {
+
+}
+
+
+
+.darkHR {
+	border-color: #333;
+	border-width: 2px;
+}
+
 .dropdown-menu {
 	background-color: #838e96;
 	color: lightgray;
@@ -126,4 +142,12 @@ body {
 
 #topDivider {
 	margin-top: -4px;
+}
+
+.projTitle {
+	text-align: center;
+}
+
+.projSubTitle {
+	color: #636363;
 }
