@@ -85,7 +85,9 @@ body {
 	margin-left: 5px;
 }
 
-
+.screenshot {
+	padding: 2px;
+}
 
 .darkHR {
 	border-color: #333;
