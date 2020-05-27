@@ -1,8 +1,10 @@
 body {
 	background-image: url(background.jpg);
-	background-size: cover;
-	background-position: center;
 	padding-top: 70px;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .about {
@@ -93,16 +95,6 @@ body {
     background-color: #586066;
 }
 
-.projBlock {
-	background-color: gray;
-	opacity: 90%;
-	border-radius: 10px;
-	padding: 2px;
-}
-.projContent {
-	margin-left: 5px;
-}
-
 .screenshot {
 	padding: 3px;
 }
@@ -169,12 +161,23 @@ body {
 	margin-top: -4px;
 }
 
+.projBlock {
+	background-color: #677178;
+	opacity: 90%;
+	border-radius: 10px;
+	padding: 2px;
+}
+.projContent {
+	margin-left: 5px;
+}
+
 .projTitle {
 	text-align: center;
+	font-weight: 800;
 }
 
 .projSubTitle {
-	color: #636363;
+	color: #677178;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -182,7 +185,7 @@ body {
     overflow: hidden;
 }
 
-.containerAnimation .container-div {
+.containerAnimation .containerAnim-div {
     animation-duration: 3s;
     animation-name: contentSlideUp;
 }
