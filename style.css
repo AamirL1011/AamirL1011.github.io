@@ -25,6 +25,14 @@ body {
 	padding-top: 2%;
 }
 
+#quickLink {
+	font-weight: 800;
+}
+
+#frontProjects {
+	font-weight: 600;
+}
+
 .navbar {
 	position: fixed;
   left: 0;      /* ADDED */
@@ -168,4 +176,23 @@ body {
 .projSubTitle {
 	color: #636363;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.containerAnimation {
+    overflow: hidden;
+}
+
+.containerAnimation .container-div {
+    animation-duration: 3s;
+    animation-name: contentSlideUp;
+}
+
+@keyframes contentSlideUp {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
 }
