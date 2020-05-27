@@ -2,6 +2,7 @@ body {
 	background-image: url(background.jpg);
 	background-size: cover;
 	background-position: center;
+	padding-top: 70px;
 }
 
 .about {
@@ -22,6 +23,15 @@ body {
 #centerThumb{
 	text-align: center;
 	padding-top: 2%;
+}
+
+.navbar {
+	position: fixed;
+  left: 0;      /* ADDED */
+  top: 0;       /* ADDED */
+  width: 100%;  /* ADDED */
+  z-index: 5;
+  opacity: 95%; 
 }
 
 .navbar-header img {
