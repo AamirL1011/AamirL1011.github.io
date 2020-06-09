@@ -1,6 +1,4 @@
 body {
-	background-color: #202b33;
-	background-image: url('background.jpg');
 	padding-top: 70px;
 	background-size: cover;
     background-position: center;
@@ -45,8 +43,12 @@ body {
   opacity: 95%; 
 }
 
-.navbar-header img {
-	margin-right: 10px;
+.navbar-img {
+	margin-right: 5px;
+}
+
+.navbar-brand {
+	color: ;
 }
 
 .navbar-default {
