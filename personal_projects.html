@@ -2,56 +2,49 @@
 <html>
 <head>
 	<title>Aamir's Personal Site</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/ico" href="personal_logo.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animations.css">
+  <link rel="icon" type="image/ico" href="personal_logo.png" />
+  <script src="https://kit.fontawesome.com/3609e173ee.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="bg-dark">
   <!-- Start of NavBar -->
-	<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <img class="navbar-header" src="personal_logo.png" height="50px" width="60px">
-      <a class="navbar-brand" href="index.html">Aamir Sheergar</a>
-    </div>
-	  
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4d5459;">
+  <img class="navbar-img" src="personal_logo.png" height="50px" width="60px">
+  <a class="navbar-brand text-secondary" href="index.html">Aamir Sheergar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
-        <li><a href="game_page.html">Play a Game</a></li>
-        <li class="dropdown active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          	<li role="separator" class="divider" id="topDivider"></li>
-          	<li class="liTitle">Academic Projects:</li>
-          	<li role="separator" class="divider"></li>
-            <li><a href="academic_projects.html">Database Admin Webpage</a></li>
-            <li><a href="academic_projects.html#campusExplorer">Campus Explorer Web Application</a></li>
-            <li><a href="academic_projects.html#pngAlgos">PNG Image Manipulation Algorithms</a></li>
-            <li><a href="academic_projects.html#busApp">Bus Transit Android App</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="liTitle">Personal Projects:</li>
-            <li role="separator" class="divider"></li>
-            <li><a href="personal_projects.html">Personal Website</a></li>
-            <li><a href="personal_projects.html">Purrfect Pet Web App</a></li>
-            <li><a href="personal_projects.html">Blog Site</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><span class="fas fa-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#work">Work Experience</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Browse Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item disabled" href="#" style="color: black;"><strong>Academic Projects</strong></a>
+          <div class="dropdown-divider" style="border-color: black"></div>
+          <a class="dropdown-item" href="academic_projects.html">Database Admin Webpage</a>
+          <a class="dropdown-item" href="academic_projects.html#campusExplorer">Campus Explorer Web Application</a>
+          <a class="dropdown-item" href="academic_projects.html#pngAlgos">PNG Image Manipulation Algorithms</a>
+          <a class="dropdown-item" href="academic_projects.html#busApp">Bus Transit Android App</a>
+          <div class="dropdown-divider" style="border-color: black"></div>
+          <a class="dropdown-item disabled" href="#" style="color: black;"><strong>Personal Projects</strong></a>
+          <div class="dropdown-divider" style="border-color: black"></div>
+          <a class="dropdown-item" href="personal_projects.html">Personal Website</a>
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
 <!-- End of NavBar -->
 
@@ -60,7 +53,7 @@
 <div class="containerAnimation">
     <div class="container">
       <!-- Page Title -->
-      <h1 class="projTitle"><u>Personal Projects</u></h1>
+      <h1 class="projTitle text-light"><u>Personal Projects</u></h1>
       <!-- Start of Project Block -->
       <h2 class="projSubTitle" id="adminPage"><strong>Personal Website (this website!)</strong></h2>
         <div class="projBlock">
@@ -88,7 +81,7 @@
 
             </div>
             <div class="col-sm-4" align="center">
-              
+        
             </div>
           </div>
             
@@ -102,7 +95,8 @@
 
 	
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
