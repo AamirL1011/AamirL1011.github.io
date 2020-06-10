@@ -1,57 +1,63 @@
 #aboutME {
     opacity: 0%;
-    animation: opacAboutAnim 3s ease forwards 5.8s;
+    animation: opacAboutAnim 3s ease forwards 4.5s;
 }
 
 #introContainer {
-    animation: opacAnim 2s ease forwards 5.0s;
+    animation: opacAnim 2s ease forwards 4.0s;
 }
 
 #intro {
     fill: transparent;
-    animation: fill 2s ease forwards 3.0s;
+    animation: fill 2s ease forwards 2.0s;
 }
 
 #intro path:nth-child(2) {
-    stroke-dasharray: 560px;
-    stroke-dashoffset: 560px;
-    animation: line-anim 2s ease forwards;
+    stroke-dasharray: 390px;
+    stroke-dashoffset: 390px;
+    animation: line-anim 1s ease forwards;
 }
 
 #intro path:nth-child(3) {
     stroke-dasharray: 280px;
     stroke-dashoffset: 280px;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 1s ease forwards 0.3s;
 }
 
 #intro path:nth-child(4) {
-    stroke-dasharray: 167px;
-    stroke-dashoffset: 167px;
-    animation: line-anim 2s ease forwards 0.9s;
+    stroke-dasharray: 230px;
+    stroke-dashoffset: 230px;
+    animation: line-anim 2s ease forwards 0.6s;
 }
 
 #intro path:nth-child(5) {
-    stroke-dasharray: 287px;
-    stroke-dashoffset: 287px;
-    animation: line-anim 2s ease forwards 1.2s;
+    stroke-dasharray: 343px;
+    stroke-dashoffset: 343px;
+    animation: line-anim 1s ease forwards 0.9s;
 }
 
 #intro path:nth-child(6) {
-    stroke-dasharray: 183px;
-    stroke-dashoffset: 183px;
-    animation: line-anim 2s ease forwards 1.5s;
+    stroke-dasharray: 270px;
+    stroke-dashoffset: 270px;
+    animation: line-anim 1s ease forwards 1.2s;
 }
 
 #intro path:nth-child(7) {
     stroke-dasharray: 472px;
     stroke-dashoffset: 472px;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 1s ease forwards 1.5s;
 }
 
 #intro path:nth-child(8) {
     stroke-dasharray: 280px;
     stroke-dashoffset: 280px;
-    animation: line-anim 2s ease forwards 2.1s;
+    animation: line-anim 1s ease forwards 1.8s;
+}
+
+#intro path:nth-child(9) {
+    stroke-dasharray: 280px;
+    stroke-dashoffset: 280px;
+    animation: line-anim 1s ease forwards 2.1s;
 }
 
 @keyframes line-anim{
