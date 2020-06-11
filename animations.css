@@ -3,6 +3,10 @@
     animation: opacAboutAnim 7s ease forwards 1.0s;
 }
 
+.arrow {
+    animation: shadowPulse 1s infinite;
+}
+
 #bitmoji {
     opacity: 0%;
     border-radius: 50%;
@@ -102,5 +106,16 @@
 
     to {
         opacity: 100%;
+    }
+}
+
+@keyframes shadowPulse {
+    from {
+        filter: drop-shadow(0 0 0.40rem black);
+
+    }
+
+    to {
+        filter: drop-shadow(0 0 0.75rem black);
     }
 }
