@@ -15,15 +15,24 @@ body {
 	background-color: #949a9c;
 }
 
+.arrow {
+	color: #343a40;
+}
+
+.arrow:hover {
+	color: white;
+}
+
+#arrowA {
+	border: none;
+	outline: none;
+}
+
 #center{
 	text-align: center;
 	padding-top: 5%;
 }
 
-.jumbotron {
-	opacity: 85%;
-	background-color: gray;
-}
 
 #centerThumb{
 	text-align: center;
@@ -188,6 +197,10 @@ body {
 
 .projSubTitle {
 	color: #677178;
+}
+
+.parLink {
+	color: darkblue;
 }
 
 .containerAnimation {

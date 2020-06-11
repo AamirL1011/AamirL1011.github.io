@@ -1,10 +1,8 @@
 #aboutME {
     opacity: 0%;
-    animation: opacAboutAnim 3s ease forwards 3.0s;
+    animation: opacAboutAnim 3s ease forwards 2.0s;
 }
 
-#introContainer {
-}
 
 .introDivider {
     border: 2px solid gray !important;
