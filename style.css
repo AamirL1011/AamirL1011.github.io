@@ -13,6 +13,7 @@ body {
 
 .arrowContrast {
 	background-color: #949a9c;
+	width: 100%;
 }
 
 .arrow {
@@ -205,6 +206,10 @@ body {
 
 .jobDivider {
 	border: 2px solid;
+}
+
+#workHeader {
+	margin-left: 27%;
 }
 
 .containerAnimation {

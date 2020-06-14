@@ -9,20 +9,26 @@
 
 #bitmoji {
     opacity: 0%;
+    margin-left: 10%;
     border-radius: 50%;
     border: 5px solid gray;
     box-shadow: 0px 2px 5px 1px #000000;
     animation: opacAboutAnim 7s ease forwards 1.0s;
 }
 
+#introContainer {
+}
+
 
 .introDivider {
     border: 2px solid gray !important;
     width: 55%;
+    animation: opacAboutAnim 7s ease forwards 1.0s;
 }
 
 #intro {
     fill: transparent;
+    margin-left: 23.5%;
     animation: fill 2s ease forwards 2.0s;
 }
 
