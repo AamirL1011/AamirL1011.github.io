@@ -57,11 +57,13 @@ body {
 	margin-right: 5px;
 	padding-bottom: 0px;
 	padding-top: 0px;
+	max-width: 20%;
 }
 
 .navbar-brand {
-	color: ;
+	margin-right: 0px;
 }
+
 
 .navbar-default {
 	background-color: #4d5459;
